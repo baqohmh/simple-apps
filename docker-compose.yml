@@ -13,6 +13,7 @@ services:
       - DB_USER=peserta
       - DB_PASS=password
       - APP_PORT=3000
+      
     volumes:
       - app-data:/apps/public/images
 
