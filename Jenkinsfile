@@ -32,10 +32,10 @@ pipeline {
                 sh'''
                 cd apps
                 sonar-scanner \
-                -Dsonar.projectKey=simple-apps \
+                -Dsonar.projectKey=Simple Apps \
                 -Dsonar.sources=. \
                 -Dsonar.host.url=http://172.23.13.85:9000 \
-                -Dsonar.token=sqp_46ed5601fe9a5ae7bfd878121a663e288dd0c649
+                -Dsonar.token=sqp_b22691045ba871b2fd8af8122311fbfcbb0e69f3
                 '''
             }
         }
