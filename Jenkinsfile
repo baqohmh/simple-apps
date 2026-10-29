@@ -1,10 +1,10 @@
 pipeline {
-    agent { label 'devops1-zakaria' }
+    agent { label 'devops1-baqoh' }
 
     stages {
         stage('Pull SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/zaxrmdn/simple-apps.git'
+                git branch: 'main', url: 'https://github.com/baqohmh/simple-apps.git'
             }
         }
         
